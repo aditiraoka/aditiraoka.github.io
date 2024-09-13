@@ -1,6 +1,7 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://www.aditiraokalanji.com/" target="_blank">Aditirao Kalanji</a>
+  <a href="https://www.aditiraokalanji.com/" target="_blank">Aditirao Kalanji</a><br/>
+  <a href="https://aditiraoka.github.io/" target="_blak">Github Link</a>
 </h2>
 <!--
 <div align="center">
