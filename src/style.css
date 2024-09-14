@@ -877,6 +877,7 @@ div.desc {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459);
   transition: all 0.3s ease;
   margin-right: 20px;
+  margin-left: 20px;
   text-align: center;
   max-width: 500px; /* Fixed width for uniform size */
   max-height: 700px; /* Fixed height for uniform size */
@@ -909,4 +910,23 @@ div.desc {
     margin-bottom: 20px;
     width: 100%;
   }
+}
+
+#project-img-id {
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+}
+
+#project-img-line {
+  margin-top: 10px; /* Adjust spacing between image and line */
+  height: 2px; /* Line height */
+  width: 80%; /* Line width */
+  color: white !important;
+  background: radial-gradient(circle, #c084c6, #7e0599);
+  box-shadow: 0 4px 8px rgba(119, 53, 136, 0.459) !important;
+  opacity: 0.9 !important;
+  margin-left: auto; /* Center the line */
+  margin-right: auto; /* Center the line */
 }

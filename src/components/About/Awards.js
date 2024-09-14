@@ -11,9 +11,9 @@ function Awards() {
         {/* Image Gallery */}
         <Card className="quote-card-view" style={{ width: "100%" }}>
             <Card.Body>
-                <Container>
+                <Container style={{margin:"0 0 0 0"}}> {/*style={{margin:"0 0 0 0", width:"100%"}}> */}
                   <Row>
-                    <Col md={16}>
+                    <Col>
                     <h2 className="purple"><b>Awards & Recognitions</b></h2>
                       <div className="horizontal-award">
                           
@@ -39,7 +39,8 @@ function Awards() {
                       </div>
                     </Col>
                   </Row>
-              </Container>
+                  </Container>
+              {/* </Container> */}
             </Card.Body>      
     </Card>
       </>
